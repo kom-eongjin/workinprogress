@@ -1,0 +1,115 @@
+.one{
+  margin-left: 50px;
+}
+.two1{
+  margin-left: 400px;
+  display: inline;
+}
+.two{
+  margin-left: 600px;
+  display: inline;
+}
+.three{
+  margin-left: 200px;
+}
+.four{
+  margin-left: 500px;
+}
+.five{
+  margin-left: 40px;
+  display: inline;
+}
+.six{
+  margin-left: 20px;
+  display: inline;
+}
+.seven{
+  margin-left: 360px;
+}
+.eight{
+  margin-left: 140px;
+  display: inline;
+}
+.nine{
+  margin-left: 540px;
+  display: inline;
+}
+.ten{
+  margin-left: 270px;
+}
+.loading{
+  margin-left: 450px;
+
+}
+.eleven{
+  margin-left: 140px;
+  display: inline;
+}
+.twelve{
+  margin-left: 255px;
+  display: inline;
+}
+.thirteen{
+  margin-left: 400px;
+}
+.fourteen{
+  margin-left: 120px;
+}
+.fifteen{
+  margin-left: 540px;
+}
+.sixteen{
+  margin-left: 470px;
+}
+
+.text1{
+  position: relative;
+  bottom: 0;
+  margin-left: 300px;
+  display: inline;
+}
+
+.roll1{
+  z-index:1;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 35px;
+  font-weight: bold;
+  color: #9AFC71;
+  background-color: #d1d1d1;
+}
+.roll1 span{
+  background-color: gray;
+}
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+span
+{
+  position: absolute;
+  background: url(27.gif);
+  background-size: cover;
+  pointer-events: none;
+  transform: translate(-50%,-50%);
+  animation: animate 6s linear infinite;
+}
+@keyframes animate
+{
+  0%
+  {
+      transform: translate(-50%,-50%);
+      opacity: 1;
+  }
+  100%
+  {
+      transform: translate(-50%,-1000%);
+      opacity: 0;
+  }
+}

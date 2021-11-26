@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>workinprogress</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <br><br><br><br><br><br>
+    <div class="one"><img src="11.jpg" width="100"></div><br><br><br><br>
+    <div class="text1">••• 모두모아 ••• 모두모아 •••</div>
+    <div class="two1"><img src="27.gif" width="100"></div>
+    <div class="two"><img src="12.jpg" width="300"></div>••• 모두모아 ••• 모두모아 •••<br><br>
+    <div class="three"><img src="4.gif" width="200"></div><br><br><br>
+    <div class="four"><img src="10_.jpg" width="220"></div><br><br><br><br><br><br><br><br>
+    <div class="five"><img src="13.jpg" width="150"></div>
+    <div class="six"><img src="9.jpg" width="100"></div><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="seven"><img src="18.jpg" width="190"></div><br><br><br><br>
+    <div class="eight"><img src="17.jpg" width="150"></div>
+    <div class="nine"><img src="14.png" width="210"></div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="ten"><img src="15.jpg" width="160"></div><br><br><br><br><br><br><br><br>
+    <div class="eleven"><img src="25.jpg" width="140"></div>
+    <div class="twelve"><img src="26.gif" width="140"></div><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="thirteen"><img src="23.jpg" width="140"></div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="fourteen"><img src="22.jpg" width="270"></div><br><br><br><br><br><br><br><br><br><br>
+    <div class="fifteen"><img src="8.jpg" width="240"></div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="sixteen"><img src="6.gif" width="190"></div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><div class="loading"><img src="ajax-loader.gif" width="40"></div><br><br><br><br><br><br><br><br><br><br><br>
+
+
+  <div class="roll1"><marquee width="100%" direction="right" height="35px" behavior="scroll">
+    ••• 워크인프로그레스•••workinprogress•••워크인프로그레스•••workinprogres•••
+워크인프로그레스•••workinprogress•••워크인프로그레스•••workinprogress•••
+  </marquee></div>
+
+  <script type="text/javascript">
+      document.addEventListener("mousemove", function(e){
+      var body = document.querySelector('body');
+      var bubbles = document.createElement("span");
+      var x = e.offsetX;
+      var y = e.offsetY;
+<!--마우스와 버블의 거리-->
+      bubbles.style.left = x+'px';
+      bubbles.style.top = y+'px';
+      var size = Math.random() * 100;
+      bubbles.style.width = 60+size+'px';
+      bubbles.style.height = 60+size+'px';
+      body.appendChild(bubbles);
+<!--사초뒤에 버블사라짐-->
+      setTimeout(function(){
+        bubbles.remove();
+      },4000)
+    })
+  </script>
+
+  </body>
+</html>
